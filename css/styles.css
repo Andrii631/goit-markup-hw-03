@@ -40,8 +40,8 @@ body{
     letter-spacing: 0.02em;
 }
 .container{
-    width: 1158px;
-    max-width: 1440px;
+    width: 100%;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -72,8 +72,7 @@ body{
 .por-but-herov:hover,
 .por-but-herov:focus,
 .por-but-herov:visited{
-    background: var(--herov-text-color);
-    color: var(--btn-fon-text-color);
+    background: #404BBF;
 }
 .footer{
     background: var(--primary-text-color);
@@ -126,7 +125,6 @@ body{
 .navig-nav{
     display: flex;
     align-items: center;
-    margin-right: auto;
 }
 .header-list{
     display: flex;
@@ -156,9 +154,8 @@ body{
 
 .herov{
     background: var(--primary-text-color);
-    height: 600px;
     padding-top: 188px;
-    padding-bottom: 158px;
+    padding-bottom: 188px;
     
 }
 .herov-box{
@@ -181,8 +178,8 @@ body{
     align-items: center;
     letter-spacing: 0.04em;
     color: var(--herov-text-color);
-    width: 170px;
     height: 55px;
+    padding: 16px 32px;
 }
 
 /* privileges section  */
@@ -210,7 +207,6 @@ body{
 
 /* doing section  */
 .doing{
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 .doing-text {
@@ -245,7 +241,6 @@ body{
 .team-box{
     display: flex;
     gap: 24px;
-    height: 380px;
 }
 .team-list{
     background: var(--herov-text-color);
@@ -313,7 +308,7 @@ body{
     justify-content: center;
 }
 .navigator-text-box{
-    padding: 32px 0;
+    padding: 32px 16px;
     border: 2px solid rgb(244, 244, 253);
     border-top: 0;00
 }
